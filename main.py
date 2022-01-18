@@ -1,8 +1,5 @@
-teksts = input("ievadit tekstu:")
-def countnumbers(teksts):
-  summa = 0
-  for simbols in teksts :
-    summa = summa = int(simbols)
-  print (summa)
-  return summa
-countnumbers(teksts)
+def countZeros(teksts):
+  return teksts.count("0")
+
+text = "0000000"
+print(countZeros(text))
